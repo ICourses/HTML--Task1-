@@ -1,0 +1,106 @@
+input,textarea,button:focus{outline-offset:0;outline:0}
+#dialog{
+    border: 5px solid rgba(0,0,0,0.25);
+    background-color: white;
+    position: relative;
+    padding: 8px;
+}
+#icon_close img{
+    position: absolute;
+    right: 13px;
+    top: 20px;
+}
+#icon_check{
+    float: right;
+    margin-right: 10px;
+    margin-top: 18px;
+}
+#di{
+    height: 66px;
+}
+#title{
+    color: #7cbe28;
+    font-size: 24px;
+    padding-top: 12px;
+    padding-bottom: 9px;
+    border-bottom: 1px solid #d0d0d0;
+}
+#text{
+    padding-top: 14px;
+}
+#text, #content, #title, #shared{
+    padding-left: 12px;
+}
+.ui-widget-overlay{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: black;
+    opacity: 0.3;
+    z-index: 1;
+}
+.ui-dialog{
+    z-index: 2;
+}
+.ui-button{
+    display: none;
+}
+#history{
+    background-color: #e9faff;
+    margin-top: 16px;
+    padding: 10px;
+}
+#text span{
+    padding-right: 26px;
+}
+#content{
+    padding-top: 10px;
+}
+.area{
+    overflow: auto;
+    background-color: white;
+    border: 1px solid #cbcbcb;
+    margin: 7px;
+    margin-left: 0px;
+    padding: 8px ;
+    color: #666666;
+    font-style: italic;
+}
+#area_one{
+    height: 85px;
+}
+#area_two{
+    height: 70px;
+}
+#history_title, .history_mess, #text div, #content{
+    font-family: "Trebuchet MS";
+    font-size: 14px;
+}
+#history_title{
+    font-size: 18px;
+}
+#history_content{
+    padding: 10px;
+}
+#shared span{
+    display: inline-block;
+    width: 48%;
+}
+.link a, #text div a{
+    /*text-decoration: none;*/
+    color: #00aedb;
+}
+.link img{
+    vertical-align: middle;
+    margin-right: 8px;
+    width: 16px;
+    height: 16px;
+}
+#history_title, .history_mess, .shared_title{
+    font-weight: bold;
+}
+.time{
+    float: right;
+}
