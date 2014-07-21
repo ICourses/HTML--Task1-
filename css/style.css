@@ -1,3 +1,7 @@
+@font-face{
+    font-family: TrebuchetMS;
+    src: url('../fonts/TrebuchetMS.ttf');
+}
 #dialog{
     border: 5px solid rgba(0,0,0,0.25);
     border-radius: 5px;
@@ -19,8 +23,8 @@
     opacity: 0.3;
     z-index: 1;
 }
-#icon_close a{
-    text-decoration: none;
+#icon_close img, #icon_check img{
+    border: none;
 }
 #icon_close img{
     position: absolute;
@@ -45,8 +49,8 @@
     height: 66px;
 }
 #title{
+    font: 24px TrebuchetMS;
     color: #7cbe28;
-    font-size: 24px;
     padding-top: 12px;
     padding-bottom: 9px;
     margin-left: 12px;
@@ -90,9 +94,8 @@
 #area_two{
     height: 70px;
 }
-#history_title, .history_mess, #text div, #content{
-    font-family: "Trebuchet MS";
-    font-size: 14px;
+ #history_title, .history_mess, #text div, #content{
+    font: 14px TrebuchetMS;
 }
 #history_title{
     font-size: 18px;
