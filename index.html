@@ -8,6 +8,7 @@
         <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
         <script type="text/javascript" src="js/script.js"></script>
         <link rel="stylesheet" href="css/style.css">
+        <!--[if IE 8]><link rel="stylesheet" href="css/indexIE.css"><![endif]-->
 	</head>
 	<body>
 		<!------------>
@@ -20,15 +21,16 @@
 		<!-------------->
 		<main>
             <div id=win>
+                <div id="overlay"></div>
                 <div id="dialog">
                     <div id="icon_close"><a href=""><img src="images/close.png"></a></div>
                     <div id="title">Lesson history</div>
                     <div id="text">
                         <div> <b>Title:</b> Lesson about English slang</div>
-                        <div> <span><b>Date:</b> June, 15th</span> <span><b>Time:</b> 15:00 - 16:00</span> <span><b>Time block:</b> 50 minutes</span> </div>
+                        <div> <span class="date-time-one"><b>Date:</b> June, 15th</span><span class="date-time-two"><b>Time:</b> 15:00 - 16:00</span> <span class="date-time-three"><b>Time block:</b> 50 minutes</span> </div>
                         <div> <b>Student:</b> John Smith</div>
                         <div> <b>Teacher:</b> <a href="#">John James</a></div>
-                        <div> <span><b>Rate:</b> 15 credits</span><span><b>Type of lesson:</b> Speaking: Free talking</span></div>
+                        <div> <span class="date-time-one"><b>Rate:</b> 15 credits</span><span><b>Type of lesson:</b> Speaking: Free talking</span></div>
                     </div>
                     <div id="content">
                         <b>Content:</b></br>
@@ -74,7 +76,6 @@
                         </a>
                     </div></div>
                 </div>
-                <div id="overlay"></div>
             </div>
 
             <button id="opener">Open Dialog</button>

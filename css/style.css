@@ -19,6 +19,9 @@
     opacity: 0.3;
     z-index: 1;
 }
+#icon_close a{
+    text-decoration: none;
+}
 #icon_close img{
     position: absolute;
     right: 13px;
@@ -46,12 +49,13 @@
     font-size: 24px;
     padding-top: 12px;
     padding-bottom: 9px;
+    margin-left: 12px;
     border-bottom: 1px solid #d0d0d0;
 }
 #text{
     padding-top: 14px;
 }
-#text, #content, #title, #shared{
+#text, #content, #shared{
     padding-left: 12px;
 }
 #history{
@@ -59,8 +63,13 @@
     margin-top: 16px;
     padding: 10px;
 }
-#text span{
-    padding-right: 26px;
+.date-time-one{
+    display: inline-block;
+   width: 135px;
+}
+.date-time-two{
+    display: inline-block;
+    width: 154px;
 }
 #content{
     padding-top: 10px;
